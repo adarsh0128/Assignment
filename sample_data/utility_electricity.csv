@@ -1,0 +1,23 @@
+meter_id,facility_name,billing_period_start,billing_period_end,kwh_consumed,mwh_consumed,tariff_type,peak_kwh,offpeak_kwh,demand_kw,demand_charge_usd,account_number,supplier_name
+MTR-DE-1001,Berlin Assembly,18.03.2026,21.04.2026,48210,,TOU,20100,28110,410,1845.22,ACC-DE-7719,Vattenfall Europe
+MTR-DE-1001,Berlin Assembly,22.04.2026,20.05.2026,49680,,TOU,21280,28400,422,1904.10,ACC-DE-7719,Vattenfall Europe
+MTR-DE-1001,Berlin Assembly,21.05.2026,20.06.2026,50310,,TOU,21900,28410,430,1930.25,ACC-DE-7719,Vattenfall Europe
+MTR-DE-1001,Berlin Assembly,21.06.2026,20.07.2026,225000,,TOU,138000,87000,1180,5310.91,ACC-DE-7719,Vattenfall Europe
+MTR-US-7702,Dallas Distribution,2026-03-15,2026-04-17,62100,,Industrial,27500,34600,520,2440.00,ACC-US-5521,Oncor Electric Delivery
+MTR-US-7702,Dallas Distribution,2026-04-18,2026-05-18,,64.8,Industrial,28800,36000,536,2510.30,ACC-US-5521,Oncor Electric Delivery
+MTR-US-7702,Dallas Distribution,2026-05-19,2026-06-20,64220,,Industrial,28540,35680,531,2488.70,ACC-US-5521,Oncor Electric Delivery
+MTR-US-7702,Dallas Distribution,2026-06-10,2026-07-14,65100,,Industrial,29100,36000,542,2530.44,ACC-US-5521,Oncor Electric Delivery
+MTR-IN-3305,Pune Components,20.03.2026,19.04.2026,,88.2,HT-I,37100,51100,710,3120.55,ACC-IN-1182,Tata Power
+MTR-IN-3305,Pune Components,20.04.2026,21.05.2026,91240,,HT-I,39800,51440,724,3185.80,ACC-IN-1182,Tata Power
+MTR-IN-3305,Pune Components,22.05.2026,21.06.2026,90510,,HT-I,38400,52110,718,-140.00,ACC-IN-1182,Tata Power
+MTR-BR-2020,Curitiba Logistics,17.03.2026,18.04.2026,40120,,A4 Verde,17100,23020,344,1295.45,ACC-BR-9022,COPEL Energia
+MTR-BR-2020,Curitiba Logistics,19.04.2026,20.05.2026,41480,,A4 Verde,18120,23360,351,1322.19,ACC-BR-9022,COPEL Energia
+MTR-BR-2020,Curitiba Logistics,21.05.2026,22.06.2026,39980,,A4 Verde,16900,23080,338,1288.10,ACC-BR-9022,COPEL Energia
+MTR-BR-2020,Curitiba Logistics,23.06.2026,23.07.2026,41020,,,17500,23520,345,1305.99,ACC-BR-9022,COPEL Energia
+MTR-GB-8808,Manchester Service Center,18.03.2026,21.04.2026,27750,,Half-Hourly,12010,15740,250,980.32,ACC-GB-4418,Octopus Energy
+MTR-GB-8808,Manchester Service Center,22.04.2026,21.05.2026,,29.1,Half-Hourly,12600,16500,258,1004.20,ACC-GB-4418,Octopus Energy
+MTR-GB-8808,Manchester Service Center,22.05.2026,20.06.2026,-1500,,Half-Hourly,0,0,0,-62.10,ACC-GB-4418,Octopus Energy
+MTR-FR-5501,Lyon Packaging,19.03.2026,20.04.2026,35110,,Tarif Vert,15200,19910,302,1198.22,ACC-FR-3321,EDF Entreprises
+MTR-FR-5501,Lyon Packaging,21.04.2026,22.05.2026,36240,,Tarif Vert,15800,20440,310,1231.11,ACC-FR-3321,EDF Entreprises
+MTR-FR-5501,Lyon Packaging,23.05.2026,22.06.2026,,,Tarif Vert,0,0,0,0,ACC-FR-3321,EDF Entreprises
+,Lyon Packaging,23.06.2026,22.07.2026,35810,,Tarif Vert,15400,20410,306,1210.80,ACC-FR-3321,EDF Entreprises
