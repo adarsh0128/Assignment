@@ -1,0 +1,28 @@
+expense_report_id,traveler_name,travel_date,travel_type,departure_airport,arrival_airport,airline,cabin_class,hotel_name,hotel_city,hotel_nights,hotel_chain,ground_transport_type,ground_distance_km,ground_distance_mi,expense_amount,expense_currency,booking_tool,departure_time,arrival_time
+ER-2026-4001,Maya Chen,2026-03-18,Air,SFO,JFK,United Airlines,Economy,"","","","","","","",842.19,USD,Concur,08:10,16:35
+ER-2026-4002,Arjun Mehta,19.03.2026,Hotel,"","","","",Hilton Midtown,New York,3,Hilton,"","","",912.44,USD,Navan,"",""
+ER-2026-4003,Elena Rossi,20260320,Ground,"","","","","","","","",Rental Car,120,"",188.50,EUR,Concur,"",""
+ER-2026-4004,Jonas Weber,2026-03-21,Air,FRA,LHR,Lufthansa,"","","","","","","","",410.22,EUR,Concur,18:40,17:55
+ER-2026-4005,Priya Nair,2026-03-22,Air,DEL,DXB,Emirates,Business,Grand Hyatt,Dubai,2,Hyatt,"","","",1710.30,USD,Navan,09:30,12:20
+ER-2026-4006,Sofia Alvarez,23.03.2026,Rail,"","","","","","","","",Rail,310,"",96.40,EUR,Concur,"",""
+ER-2026-4007,Marcus Hill,20260324,Taxi,"","","","","","","","",Taxi,"",18.5,64.20,USD,Concur,"",""
+ER-2026-4008,Nina Patel,2026-03-25,Air,JFK,CDG,Air France,"",Le Meridien Etoile,Paris,4,Marriott,"","","",1450.80,USD,Navan,22:20,11:30
+ER-2026-4009,Thomas Grant,2026-03-26,Air,LAX,ZZZ,Delta Air Lines,Economy,"","","","","","","",705.00,USD,Concur,07:10,14:00
+ER-2026-4010,Amara Okafor,2026-03-27,Hotel,"","","","",Sofitel Heathrow,London,1,Accor,"","","",268.90,GBP,Navan,"",""
+ER-2026-4011,Luca Bianchi,28.03.2026,Ground,"","","","","","","","",Black Car,"",42,133.20,EUR,Navan,"",""
+ER-2026-4012,Grace Kim,20260329,Air,NRT,SIN,Japan Airlines,Premium Economy,"","","","","","","",990.11,JPY,Concur,10:00,16:35
+ER-2026-4013,Owen Miller,2026-03-30,Taxi,"","","","","","","","",Taxi,22,"",54.00,USD,Concur,"",""
+ER-2026-4014,Leila Haddad,2026-03-31,Hotel,"","","","",Marriott Marquis,Doha,2,Marriott,"","","",420.00,QAR,Navan,"",""
+ER-2026-4015,Victor Santos,2026-04-01,Air,ATL,DFW,American Airlines,Economy,"","","","","","","",388.17,USD,Concur,06:20,08:05
+ER-2026-4016,Anika Shah,02.04.2026,Rail,"","","","","","","","",Rail,"",95,72.60,GBP,Concur,"",""
+ER-2026-4017,Martin Vogel,20260403,Air,LHR,FRA,British Airways,"","","","","","","","",360.10,GBP,Navan,13:20,15:50
+ER-2026-4018,Isabella Costa,2026-04-04,Ground,"","","","","","","","",Rental Car,0,"",210.45,BRL,Concur,"",""
+ER-2026-4019,Noah Stein,2026-04-05,Air,BOS,DEN,United Airlines,Economy,"","","","","","","",530.00,USD,Concur,15:05,18:10
+ER-2026-4020,Mei Tan,06.04.2026,Hotel,"","","","",Marina Bay Sands,Singapore,3,Independent,"","","",1280.00,SGD,Navan,"",""
+ER-2026-4021,Samir Khan,20260407,Air,DXB,DEL,Emirates,"","","","","","","","",640.00,USD,Concur,03:20,08:15
+ER-2026-4022,Ana Pereira,2026-04-08,Taxi,"","","","","","","","",Taxi,"",12.1,38.75,BRL,Concur,"",""
+ER-2026-4023,Helena Schmidt,2026-04-09,Air,CDG,BOS,Delta Air Lines,Economy,"","","","","","","",920.55,EUR,Navan,11:00,13:05
+ER-2026-4024,Rafael Gomez,"",Ground,"","","","","","","","",Rental Car,85,"",144.20,USD,Concur,"",""
+"",David Brooks,2026-04-11,Air,ORD,LAX,United Airlines,Economy,"","","","","","","",455.30,USD,Concur,09:15,11:42
+ER-2026-4026,Clara Hughes,2026-04-12,Ground,"","","","","","","","",Rental Car,-14,"",22.00,USD,Navan,"",""
+ER-2026-4027,Kenji Ito,20260413,Air,SIN,NRT,Singapore Airlines,Business,"","","","","","","",1810.00,SGD,Navan,00:50,08:55
