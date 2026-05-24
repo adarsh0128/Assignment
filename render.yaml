@@ -3,7 +3,7 @@ services:
     name: esg-platform-backend
     env: docker
     rootDir: backend
-    plan: starter
+    plan: free
     healthCheckPath: /api/v1/health/
     envVars:
       - key: DJANGO_SETTINGS_MODULE
@@ -38,4 +38,4 @@ services:
           property: port
 databases:
   - name: esg-platform-db
-    plan: starter
+    plan: free
