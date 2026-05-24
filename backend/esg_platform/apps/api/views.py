@@ -1,5 +1,6 @@
 from django.db.models import Count, Q
 from django.utils import timezone
+from rest_framework.permissions import AllowAny
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -15,6 +16,14 @@ class TenantQuerysetMixin:
         queryset = super().get_queryset()
         lookup = {f"{self.organization_field}_id": self.request.user.organization_id}
         return queryset.filter(**lookup)
+
+
+class HealthView(APIView):
+    authentication_classes = []
+    permission_classes = [AllowAny]
+
+    def get(self, request):
+        return Response({"status": "ok"})
 
 
 class DashboardView(APIView):

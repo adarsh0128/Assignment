@@ -4,7 +4,7 @@ services:
     env: docker
     rootDir: backend
     plan: starter
-    healthCheckPath: /api/v1/dashboard/
+    healthCheckPath: /api/v1/health/
     envVars:
       - key: DJANGO_SETTINGS_MODULE
         value: esg_platform.settings.production
