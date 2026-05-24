@@ -19,6 +19,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends libpq5 && rm -r
 COPY --from=builder /wheels /wheels
 RUN pip install --no-cache-dir /wheels/*
 COPY . .
-RUN python manage.py collectstatic --noinput
+RUN DJANGO_SECRET_KEY=build-only-collectstatic-secret \
+    DJANGO_ALLOWED_HOSTS=localhost \
+    DJANGO_SECURE_SSL_REDIRECT=false \
+    python manage.py collectstatic --noinput
 
-CMD ["gunicorn", "esg_platform.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["sh", "-c", "gunicorn esg_platform.wsgi:application --bind 0.0.0.0:${PORT:-8000}"]
